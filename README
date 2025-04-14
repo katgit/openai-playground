@@ -1,0 +1,19 @@
+# Open AI Playground
+
+
+# Create environment
+```
+module load miniconda
+mamba create -y -n ai python=3.12
+conda activate ai
+pip3 install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu126
+mamba install -y -c conda-forge pandas notebook
+pip install python-slugify  # this library is needed for openai installation
+pip install openai
+```
+
+# Run environment
+```
+module load miniconda
+conda activate ai
+```
